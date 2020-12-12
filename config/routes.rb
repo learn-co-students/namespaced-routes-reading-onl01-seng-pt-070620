@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   get '/admin/stats', to: 'stats#index'
 
   root 'posts#index'
+
+  
 end
